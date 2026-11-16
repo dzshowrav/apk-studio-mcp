@@ -1,0 +1,29 @@
+{
+  "name": "apk-studio-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for Android APK reverse engineering, decompilation, analysis, repacking, and signing",
+  "main": "index.js",
+  "bin": {
+    "apk-studio-mcp": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "android",
+    "apk",
+    "reverse-engineering",
+    "apktool",
+    "apksigner",
+    "dex",
+    "smali"
+  ],
+  "author": "dzshowrav",
+  "license": "MIT"
+}
